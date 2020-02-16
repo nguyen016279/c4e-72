@@ -167,3 +167,47 @@ if (BMI<16){
     console.log('Obese')
 }
 */
+/*Ex11: Use ​JS Turtle​, to draw the following shapes
+a. A square
+clear()
+for(let i = 0; i<5;i++){
+   fd(50)
+   rt(90)
+}
+b. A triangle
+clear()
+for(let i = 0; i<5;i++){
+   fd(50)
+   rt(360/3)
+}
+c. A pentagon
+clear()
+for(let i = 0; i<5;i++){
+   fd(50)
+   rt(360/5)
+}
+d. A hexagon
+clear()
+for(let i = 0; i<6;i++){
+   fd(50)
+   rt(360/6)
+}
+ */
+/*Ex12: Use ​JS Turtle​ to draw a polygon, the number of polygon’s edges entered by users
+clear()
+let a = Number(prompt('enter number of edges'))
+for(let i =0; i<a; i++){
+   fd(50)
+   rt(360/a)
+}
+ */
+/*Ex13: (Optional) Use ​JS Turtle​ to draw ​n​ polygons, ​n​ entered by users
+clear()
+let n = prompt("How many polygons?")
+for(let j = 3; j<=n; j++){
+  for(let i = 0; i<j; i++){
+    fd(50)
+    lt(360/j)
+  }
+}
+*/
